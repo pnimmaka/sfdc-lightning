@@ -1,0 +1,14 @@
+<apex:page >
+    <apex:includeLightning />
+    <div id="lightning" />
+    <script>
+        $Lightning.use("c:LightningOutApp", function() {
+        		$Lightning.createComponent("c:LightningOut", 
+                {}, 
+                "lightning", 
+                function(cmp){
+                    //
+                });
+        });
+    </script>
+</apex:page>
